@@ -1,0 +1,67 @@
+.sidebar {
+	float: left;
+	width: 180px;	
+  padding-top: 42px;
+  padding-right: 10px;
+}
+
+.nav-menu__link_active .nav-menu__text {
+	color: #221f1f;
+}
+
+.nav-menu__link_active .sprite-main_icon {
+	background-position: -32px -34px;
+}
+
+.nav-menu__link_active .sprite-wallet_icon {
+	background-position: -67px -31px;
+}
+
+.nav-menu__link_active .sprite-feed_icon {
+	background-position: -36px -5px;
+}
+
+.nav-menu__link:hover .nav-menu__text {
+	color: #221f1f;
+}
+
+.nav-menu__link:hover .sprite-main_icon {
+	background-position: -32px -34px;
+}
+
+.nav-menu__link:hover .sprite-wallet_icon {
+	background-position: -67px -31px;
+}
+
+.nav-menu__link:hover .sprite-feed_icon {
+	background-position: -36px -5px;
+}
+
+.nav-menu__list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav-menu__item {
+	margin-bottom: 27px;
+}
+
+.nav-menu__link {
+	text-decoration: none;
+	display: block;	
+}
+
+.nav-menu__icon {
+	vertical-align: middle;
+	margin-right: 16px;  
+}
+
+.nav-menu__text {
+	color: #ec1e79;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	vertical-align: middle;  
+	transition: .3s;
+}

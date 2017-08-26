@@ -1,0 +1,38 @@
+.breadcrumbs {
+	margin-bottom: 20px;
+}
+
+.breadcrumbs__list{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.main_padding_top {
+	padding-top: 40px;
+}
+
+.breadcrumbs__item {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.breadcrumbs__item::after {
+	content: "/";
+}
+
+.breadcrumbs__link {
+	font-size: 14px;
+	color: #ec1e79;
+	opacity: .8;
+	font-style: italic;
+	vertical-align: middle;
+}
+
+.breadcrumbs__item_last::after {
+	display: none;
+}
+
+.breadcrumbs__item_last .breadcrumbs__link {
+	color: #000;
+	text-decoration: none;
+}

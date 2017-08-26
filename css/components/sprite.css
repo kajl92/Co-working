@@ -1,0 +1,44 @@
+.sprite {
+    background-image: url("../../img/icons/spritesheet.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.sprite-main_icon {
+    width: 17px;
+    height: 15px;
+    background-position: -5px -34px;
+}
+
+.sprite-main_icon:hover {
+    width: 17px;
+    height: 15px;
+    background-position: -32px -34px;
+}
+
+.sprite-feed_icon {
+    width: 21px;
+    height: 19px;
+    background-position: -5px -5px;
+}
+
+.sprite-feed_icon:hover {
+    width: 21px;
+    height: 19px;
+    background-position: -36px -5px;
+}
+
+
+.sprite-wallet_icon {
+    width: 19px;
+    height: 16px;
+    background-position: -67px -5px;
+}
+
+.sprite-wallet_icon:hover {
+    width: 19px;
+    height: 16px;
+    background-position: -67px -31px;
+}
+
+
